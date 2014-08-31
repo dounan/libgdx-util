@@ -3,11 +3,18 @@ libgdx-util
 
 Utilities for working with libgdx projects
 
-When upgrading libgdx version, upgrade the this libraries version number to match the libgdx version.
+### Upgrading libgdx version
+In build.gradle, update both allprojects.version and allprojects.ext.gdxVersion to the same value.
+
+### Building
+`./gradlew build`
 
 # Utils library
+## Eclipse
+Generate the necessary Eclipse project files.
+`./gradlew eclipse`
 
-TODO
+In Eclipse, go to File -> Import... -> Existing Projects into Workspace.
 
 # Destructable Map Preprocessor
 
