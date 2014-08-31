@@ -29,17 +29,15 @@ allprojects {
 project(":destructable-map-preprocessor-desktop") {
     apply plugin: "java"
 
-
     dependencies {
-        compile project(":core")
+        compile project(":libgdx-util")
         compile "com.badlogicgames.gdx:gdx-backend-lwjgl:$gdxVersion"
         compile "com.badlogicgames.gdx:gdx-platform:$gdxVersion:natives-desktop"
     }
 }
 
-project(":core") {
+project(":libgdx-util") {
     apply plugin: "java"
-
 
     dependencies {
         compile "com.badlogicgames.gdx:gdx:$gdxVersion"
@@ -47,6 +45,16 @@ project(":core") {
     }
 }
 
+project(":libgdx-util-test") {
+    apply plugin: "java"
+
+    dependencies {
+        compile project(":libgdx-util")
+        compile group: 'junit', name: 'junit', version: '4.+'
+    }
+}
+
 tasks.eclipse.doLast {
     delete ".project"
 }
+

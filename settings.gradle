@@ -1,1 +1,1 @@
-include 'destructable-map-preprocessor-desktop', 'core'
+include 'libgdx-util', 'libgdx-util-test', 'destructable-map-preprocessor-desktop'
