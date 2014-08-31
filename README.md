@@ -13,5 +13,5 @@ TODO
 
 This desktop application will calculate the surface normals of an image.
 
-./gradlew destructable-map-preprocessor-desktop:run
+`./gradlew destructable-map-preprocessor-desktop:run`
 
