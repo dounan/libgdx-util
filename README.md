@@ -9,6 +9,8 @@ In build.gradle, update both allprojects.version and allprojects.ext.gdxVersion 
 ### Building
 `./gradlew build`
 
+The jar file will be located in libgdx-util/build/libs.
+
 # Utils library
 ## Eclipse
 Generate the necessary Eclipse project files.
