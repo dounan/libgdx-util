@@ -3,7 +3,7 @@ apply plugin: "java"
 sourceCompatibility = 1.6
 sourceSets.main.java.srcDirs = [ "src/" ]
 
-project.ext.mainClassName = "com.dounan.libgdx.util.destructable.mappreprocessor.Main"
+project.ext.mainClassName = "com.dounanshi.libgdx.util.destructable.mappreprocessor.Main"
 
 task run(dependsOn: classes, type: JavaExec) {
     main = project.mainClassName
