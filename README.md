@@ -9,6 +9,7 @@ In build.gradle, update both allprojects.version and allprojects.ext.gdxVersion 
 # Utils library
 ## Eclipse
 Generate the necessary Eclipse project files.
+
 `./gradlew eclipse`
 
 In Eclipse, go to File -> Import... -> Existing Projects into Workspace.
