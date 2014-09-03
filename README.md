@@ -15,7 +15,7 @@ Generate the necessary Eclipse project files.
 In Eclipse, go to File -> Import... -> Existing Projects into Workspace.
 
 ## Publishing the libgdx-util jar
-Make sure the Google Drive client is installed and you have the ~/Google Drive/mvn-repo directory.
+Make sure the Google Drive client is installed and you have the /Users/dounan/Google Drive/mvn-repo directory.
 
 `./gradlew publish`
 
