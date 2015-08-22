@@ -98,6 +98,11 @@ public class FadingMusic implements Music {
     }
 
     @Override
+    public void setPosition(float position) {
+        backingMusic.setPosition(position);
+    }
+
+    @Override
     public float getPosition() {
         return backingMusic.getPosition();
     }
